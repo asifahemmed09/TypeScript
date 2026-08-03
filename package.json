@@ -14,13 +14,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/asifahemmed09/TypeScript/issues"
   },
   "homepage": "https://github.com/asifahemmed09/TypeScript#readme",
   "devDependencies": {
+    "@types/axios": "^0.9.36",
     "ts-node": "^10.9.2",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "axios": "^1.19.0"
   }
 }
