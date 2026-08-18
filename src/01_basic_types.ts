@@ -7,6 +7,9 @@ let bigNum: bigint = 1232456n
 // String
 let name: string = "John Doe"
 
+// Boolean
+let isStudent = true
+
 // Undefined
 let data: undefined = undefined
 
