@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "dev": "tsc -p -w tsconfig.json"
+    "dev": "tsc -p  tsconfig.json -w"
   },
-  "keywords": ["TypeScript","JavaScript"],
+  "keywords": [
+    "TypeScript",
+    "JavaScript"
+  ],
   "author": "Asif Ahemmed Rahi",
   "license": "ISC",
   "type": "module",
