@@ -2,8 +2,6 @@
 node_modules/
 
 # Environment variables
-.env
-.env.*
 !.env.example
 
 # Logs
@@ -35,7 +33,6 @@ pids/
 Thumbs.db
 
 # IDE / Editor
-.vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 !.vscode/launch.json
@@ -54,3 +51,4 @@ temp/
 
 # Optional: local configuration
 *.local
+config.bat
