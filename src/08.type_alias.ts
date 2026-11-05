@@ -22,3 +22,20 @@ const user2: User = {
         console.log("Hello")
     }
 }
+
+
+type Vehicle = {
+    brand: string
+}
+
+
+type Car = {
+    model: string
+}
+
+type Wheeler =  Vehicle & Car
+
+const myCar: Wheeler = {
+    brand: "Toyota",
+    model: "Premio"
+}
